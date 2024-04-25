@@ -1,0 +1,141 @@
+@media (max-width: 768px) {
+  .tips {
+    flex-direction: column; /* Altera a direção para coluna em telas menores */
+  }
+  .tip-card {
+    width: 100%; /* Garante que os cards ocupem toda a largura do contêiner */
+  }
+}
+
+header {
+    color: white; /* Altera a cor do texto para branco */
+    background-color: black; /* Altera a cor de fundo para preto */
+    text-align: center; /* Centraliza o texto */
+
+
+}
+
+.cab {
+    color: white; /* Altera a cor do texto do cabeçalho para branco */
+    font-size: 25px;
+}
+.container {
+    width: 100%;
+    min-height: 100vh; /* Garante que o conteúdo ocupe pelo menos a altura da tela */
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.section-title {
+    color: #160127;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    
+  }
+  
+  .tip-card.dica1 {
+    background-color: #e0f7fa;
+    border-radius: 15PX;
+}
+
+.tip-card.dica2 {
+    background-color: #e0f7fa;
+    border-radius: 15PX;
+
+}
+
+.tip-card.dica3 {
+    background-color: #e0f7fa;
+    border-radius: 15PX;
+
+}
+
+.tip-card {
+  flex: 1; /* Each card occupies equal space */
+  margin: 0 10px; /* Add some margin between cards */
+}
+.content-wrapper {
+  display: flex;
+}
+
+.img-cab {
+  flex: 1;
+}
+
+.tips {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  justify-content: space-between; /* Distribute cards evenly across the container */
+  margin-top: 20px;
+}
+.section-content {
+  text-align: center;
+  align-items: center;
+  
+}
+.section-titleA {
+  margin-left: 0; /* Remove a margem à esquerda para centralizar */
+  text-align: center; /* Centraliza o título */
+}
+/* Estilo para os cards de ajuda */
+.tip-card.ajuda1 {
+  background-color: #fff176;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.tip-card.ajuda2 {
+  background-color: #fff176; /* Amarelo pastel */
+  align-items: center;
+  border-radius: 15px;
+}
+
+.tip-card.ajuda3 {
+  background-color: #fff176; /* Amarelo pastel */
+  align-items: center;
+  border-radius: 15px;
+}
+.works{
+  text-align: center;
+  margin-top: -400px;
+  font-size: 20px;
+}
+.img-work{
+  width: 400px;
+  height: auto;
+  margin-left: 1400px;
+}
+.cont-work {
+  width: 100%; /* Ajusta a largura do contêiner para ocupar toda a largura disponível */
+  margin-left: 0; /* Remove a margem à esquerda */
+}
+.slider {
+  width: 100%; /* Ajusta a largura do slider para ocupar toda a largura disponível */
+  margin: 20px 0; /* Ajusta a margem superior e inferior */
+}
+
+.slider li {
+  list-style: none;
+  position: absolute;
+}
+
+.slider li {
+  list-style: none;
+  position: absolute;
+  width: 100%; /* Defina a largura do slider para ocupar toda a largura disponível */
+}
+
+.slider img {
+  margin: auto;
+  max-width: 50%; /* Defina um tamanho máximo para as imagens, por exemplo, 50% da largura do contêiner */
+  height: auto;
+  max-height: 100%;
+  vertical-align: middle;
+}
+.work2{
+  
+}
